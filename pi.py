@@ -173,9 +173,9 @@ def check_credentials():
     )
 
     if is_subscriber:
-        subscription_status = "? Premium"
+        subscription_status = "Premium"
     elif is_free:
-        subscription_status = "? Free User"
+        subscription_status = "Free User"
     else:
         subscription_status = "Unable to determine subscription status"
 
