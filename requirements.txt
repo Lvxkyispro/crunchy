@@ -1,2 +1,6 @@
 Flask==2.3.3
 requests==2.31.0
+requests==2.31.0
+uuid==1.30
+urllib3==1.26.15
+jsonify==0.5
